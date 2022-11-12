@@ -1,7 +1,8 @@
+import 'package:alert_dialog_list_view_common_issue/custom_app_bar.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MaterialApp(home: ShowAlertDialog()));
+  runApp( MaterialApp(home: CustomAppBar()));
 }
 
 class ShowAlertDialog extends StatefulWidget {
